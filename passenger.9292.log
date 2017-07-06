@@ -1,0 +1,10 @@
+[ 2017-07-06 18:47:28.3004 13119/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/06 18:47:28 [alert] 13118#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
