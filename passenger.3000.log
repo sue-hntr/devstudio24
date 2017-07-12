@@ -8,3 +8,384 @@ dyld: Symbol not found: _clock_gettime
   Expected in: /usr/lib/libSystem.B.dylib
 
 2017/07/06 18:43:23 [alert] 13101#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-07 16:17:05.6966 13903/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/07 16:17:05 [alert] 13902#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-07 16:19:07.3729 13911/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/07 16:19:07 [alert] 13910#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-07 16:29:58.4520 14067/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/07 16:29:58 [alert] 14066#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-07 16:37:59.7176 14089/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/07 16:37:59 [alert] 14088#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-07 17:30:03.2348 15382/0x7fff73903300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/suzannehunter/.passenger/support-binaries/5.1.5/PassengerAgent
+  Expected in: /usr/lib/libSystem.B.dylib
+
+2017/07/07 17:30:03 [alert] 15381#0: Unable to start the Phusion Passenger watchdog: it seems to have been killed with signal SIGTRAP during startup (-1: Unknown error)
+[ 2017-07-11 13:50:11.6179 20467/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-11 13:50:11.6404 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-11 13:50:11.6419 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-11 13:50:11.6521 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 20469
+[ 2017-07-11 13:50:11.6621 20471/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-11 13:50:11.6634 20471/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 20471
+App 20483 stdout: 
+App 20496 stdout: 
+App 20483 stderr: 127.0.0.1 - - [11/Jul/2017:13:50:15 -0400] "HEAD / HTTP/1.1" 200 19 0.0071
+[ 2017-07-11 13:50:22.6179 20469/0x10e676000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 20483 stderr: 127.0.0.1 - - [11/Jul/2017:13:52:07 -0400] "GET / HTTP/1.1" 200 19 0.0029
+App 20483 stderr: 127.0.0.1 - - [11/Jul/2017:13:52:34 -0400] "GET / HTTP/1.1" 200 19 0.0006
+App 20483 stderr: 127.0.0.1 - - [11/Jul/2017:13:52:34 -0400] "GET /favicon.ico HTTP/1.1" 404 467 0.0015
+App 20483 stderr: 127.0.0.1 - - [11/Jul/2017:14:20:29 -0400] "GET / HTTP/1.1" 200 19 0.0006
+
+[ 2017-07-11 14:21:20.0674 20469/0x10e77c000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2017-07-11 14:21:20.0675 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-11 14:21:20.0675 20471/0x108efd000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-11 14:21:20.0675 20471/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-11 14:21:20.0675 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 20496, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-11 14:21:20.0677 20471/0x108efd000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-11 14:21:20.0677 20469/0x10e77c000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0677 20471/0x109003000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0677 20471/0x109003000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-11 14:21:20.0677 20469/0x10e77c000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-11 14:21:20.0678 20469/0x10e882000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0678 20469/0x10e882000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-11 14:21:20.0679 20469/0x10e988000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0679 20469/0x10e988000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-11 14:21:20.0680 20469/0x10ea8e000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0680 20469/0x10ea8e000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-11 14:21:20.0681 20469/0x10eb94000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-11 14:21:20.0681 20469/0x10eb94000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-11 14:21:20.0683 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 20496, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-11 14:21:20.0685 20471/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-11 14:21:20.3427 20469/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-11 14:21:50.0420 21406/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-11 14:21:50.0613 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-11 14:21:50.0623 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-11 14:21:50.0761 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 21408
+[ 2017-07-11 14:21:50.0845 21410/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-11 14:21:50.0857 21410/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 21410
+App 21422 stdout: 
+App 21435 stdout: 
+App 21422 stderr: WARN: tilt autoloading 'tilt/erb' in a non thread-safe way; explicit require 'tilt/erb' suggested.
+App 21422 stderr: 2017-07-11 14:21:53 - Errno::ENOENT - No such file or directory @ rb_sysopen - /Users/suzannehunter/Desktop/devstudio24/views/index.erb:
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `open'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `read_template_file'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:76:in `block in initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:878:in `new'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:878:in `block in compile_template'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt.rb:88:in `fetch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:857:in `compile_template'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:838:in `render'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:682:in `erb'
+App 21422 stderr: 	/Users/suzannehunter/Desktop/devstudio24/main.rb:5:in `block in <top (required)>'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1632:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1632:in `block in compile!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `[]'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `block (3 levels) in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1010:in `route_eval'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `block (2 levels) in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1037:in `block in process_route'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1035:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1035:in `process_route'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:989:in `block in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:988:in `each'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:988:in `route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1094:in `block in dispatch!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `block in invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1091:in `dispatch!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:923:in `block in call!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `block in invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:923:in `call!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:913:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/xss_header.rb:18:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/json_csrf.rb:26:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/base.rb:50:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/base.rb:50:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/frame_options.rb:31:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/logger.rb:15:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/common_logger.rb:33:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:231:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:224:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/head.rb:12:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/show_exceptions.rb:22:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:194:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1955:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1499:in `block in call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1726:in `synchronize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1499:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ 2017-07-11 14:21:54.1823 21408/0x110089000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 21422 stderr: 2017-07-11 14:22:30 - Errno::ENOENT - No such file or directory @ rb_sysopen - /Users/suzannehunter/Desktop/devstudio24/views/index.erb:
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `open'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `read_template_file'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:76:in `block in initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `initialize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:878:in `new'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:878:in `block in compile_template'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/tilt-2.0.1/lib/tilt.rb:88:in `fetch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:857:in `compile_template'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:838:in `render'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:682:in `erb'
+App 21422 stderr: 	/Users/suzannehunter/Desktop/devstudio24/main.rb:5:in `block in <top (required)>'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1632:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1632:in `block in compile!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `[]'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `block (3 levels) in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1010:in `route_eval'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:991:in `block (2 levels) in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1037:in `block in process_route'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1035:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1035:in `process_route'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:989:in `block in route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:988:in `each'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:988:in `route!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1094:in `block in dispatch!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `block in invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1091:in `dispatch!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:923:in `block in call!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `block in invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `catch'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1073:in `invoke'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:923:in `call!'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:913:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/xss_header.rb:18:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/json_csrf.rb:26:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/base.rb:50:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/base.rb:50:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-protection-2.0.0/lib/rack/protection/frame_options.rb:31:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/logger.rb:15:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/common_logger.rb:33:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:231:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:224:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/head.rb:12:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/show_exceptions.rb:22:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:194:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1955:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1499:in `block in call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1726:in `synchronize'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/sinatra-2.0.0/lib/sinatra/base.rb:1499:in `call'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 21422 stderr: 	/Users/suzannehunter/.rvm/gems/ruby-2.2.3/gems/passenger-5.1.5/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+App 21422 stderr: 127.0.0.1 - - [11/Jul/2017:14:22:30 -0400] "GET /__sinatra__/500.png HTTP/1.1" 200 24378 0.0230
+
+[ 2017-07-11 14:35:58.8206 21408/0x11018f000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-11 14:35:58.8207 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-11 14:35:58.8208 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 21435, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+
+[ 2017-07-11 14:35:58.8210 21408/0x11018f000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8210 21410/0x109bc9000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-11 14:35:58.8210 21408/0x11018f000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-11 14:35:58.8211 21410/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-11 14:35:58.8211 21408/0x110295000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8212 21408/0x110295000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-11 14:35:58.8212 21410/0x109bc9000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-11 14:35:58.8212 21408/0x11039b000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8213 21410/0x109ccf000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8213 21408/0x11039b000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-11 14:35:58.8213 21410/0x109ccf000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-11 14:35:58.8213 21408/0x1104a1000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8214 21408/0x1104a1000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-11 14:35:58.8216 21408/0x1105a7000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-11 14:35:58.8217 21408/0x1105a7000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-11 14:35:58.8218 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 21435, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-11 14:35:58.8226 21410/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-11 14:35:59.1063 21408/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-12 16:02:44.7712 22577/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-12 16:02:44.7992 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-12 16:02:44.8011 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-12 16:02:44.8267 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 22579
+[ 2017-07-12 16:02:44.8357 22581/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-12 16:02:44.8397 22581/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 22581
+App 22593 stdout: 
+[ 2017-07-12 16:02:47.9089 22579/0x1091be000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 22606 stdout: 
+App 22593 stderr: 127.0.0.1 - - [12/Jul/2017:16:02:48 -0400] "HEAD / HTTP/1.1" 404 452 0.0034
+App 22593 stderr: 127.0.0.1 - - [12/Jul/2017:16:03:07 -0400] "GET / HTTP/1.1" 404 456 0.0108
+App 22593 stderr: 127.0.0.1 - - [12/Jul/2017:16:03:07 -0400] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0036
+
+[ 2017-07-12 16:03:41.1798 22579/0x1092c4000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2017-07-12 16:03:41.1799 22581/0x102bb3000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:03:41.1799 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:03:41.1799 22581/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:03:41.1799 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22606, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:03:41.1801 22581/0x102bb3000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-12 16:03:41.1802 22579/0x1092c4000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1802 22581/0x102cb9000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1802 22581/0x102cb9000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-12 16:03:41.1802 22579/0x1092c4000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-12 16:03:41.1803 22579/0x1093ca000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1804 22579/0x1093ca000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-12 16:03:41.1804 22579/0x1094d0000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1805 22579/0x1094d0000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-12 16:03:41.1806 22579/0x1095d6000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1806 22579/0x1095d6000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-12 16:03:41.1808 22579/0x1096dc000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:03:41.1809 22579/0x1096dc000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-12 16:03:41.1821 22581/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-12 16:03:41.1823 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22606, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:03:41.4574 22579/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-12 16:06:16.1121 22663/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-12 16:06:16.1337 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-12 16:06:16.1351 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-12 16:06:16.1473 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 22665
+[ 2017-07-12 16:06:16.1572 22667/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-12 16:06:16.1584 22667/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 22667
+App 22679 stdout: 
+[ 2017-07-12 16:06:19.1196 22665/0x10bc65000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+[ 2017-07-12 16:06:19.1320 22665/0x10bc65000 Crypto.cpp:987 ]: Removing Passenger private key from keychain failed: write permissions error. Please remove the private key from the certificate labeled Phusion Passenger Open Source in your keychain.
+App 22692 stdout: 
+App 22679 stderr: 127.0.0.1 - - [12/Jul/2017:16:06:19 -0400] "HEAD / HTTP/1.1" 404 452 0.0020
+App 22679 stderr: 127.0.0.1 - - [12/Jul/2017:16:06:22 -0400] "GET / HTTP/1.1" 404 456 0.0060
+
+
+[ 2017-07-12 16:07:10.3141 22665/0x10bd6b000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:07:10.3141 22667/0x10d3b5000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:07:10.3142 22667/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:07:10.3142 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:07:10.3143 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22692, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:07:10.3143 22667/0x10d3b5000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-12 16:07:10.3144 22667/0x10d4bb000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3144 22667/0x10d4bb000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-12 16:07:10.3145 22665/0x10bd6b000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3145 22665/0x10bd6b000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-12 16:07:10.3146 22665/0x10be71000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3146 22665/0x10be71000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-12 16:07:10.3147 22665/0x10bf77000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3147 22665/0x10bf77000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-12 16:07:10.3148 22665/0x10c07d000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3148 22665/0x10c07d000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-12 16:07:10.3150 22665/0x10c183000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:07:10.3151 22665/0x10c183000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-12 16:07:10.3152 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22692, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:07:10.3154 22667/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-12 16:07:10.5921 22665/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-12 16:07:16.5501 22728/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-12 16:07:16.5707 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-12 16:07:16.5718 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-12 16:07:16.5838 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 22730
+[ 2017-07-12 16:07:16.5943 22732/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-12 16:07:16.5958 22732/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 22732
+App 22744 stdout: 
+[ 2017-07-12 16:07:19.5580 22730/0x108447000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+[ 2017-07-12 16:07:19.5674 22730/0x108447000 Crypto.cpp:987 ]: Removing Passenger private key from keychain failed: write permissions error. Please remove the private key from the certificate labeled Phusion Passenger Open Source in your keychain.
+App 22757 stdout: 
+App 22744 stderr: 127.0.0.1 - - [12/Jul/2017:16:07:19 -0400] "HEAD / HTTP/1.1" 404 452 0.0037
+App 22744 stderr: 127.0.0.1 - - [12/Jul/2017:16:07:25 -0400] "GET / HTTP/1.1" 404 456 0.0072
+App 22744 stderr: 127.0.0.1 - - [12/Jul/2017:16:08:05 -0400] "GET / HTTP/1.1" 404 456 0.0013
+
+
+[ 2017-07-12 16:23:32.3887 22732/0x10d160000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:23:32.3887 22730/0x10854d000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:23:32.3888 22732/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:23:32.3889 22732/0x10d160000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-12 16:23:32.3889 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:23:32.3890 22732/0x10d266000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3891 22732/0x10d266000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-12 16:23:32.3893 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22757, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:23:32.3897 22730/0x10854d000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3897 22730/0x10854d000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-12 16:23:32.3898 22730/0x108653000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3899 22730/0x108653000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-12 16:23:32.3900 22730/0x108759000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3900 22730/0x108759000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-12 16:23:32.3901 22730/0x10885f000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3901 22730/0x10885f000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-12 16:23:32.3903 22730/0x108965000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:23:32.3904 22730/0x108965000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-12 16:23:32.3906 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 22757, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:23:32.3908 22732/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-12 16:23:32.6616 22730/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-12 16:31:26.3690 23378/0x7fff745dd300 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-12 16:31:26.3932 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-12 16:31:26.3953 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-12 16:31:26.4103 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 23380
+[ 2017-07-12 16:31:26.4197 23382/0x7fff745dd300 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-12 16:31:26.4209 23382/0x7fff745dd300 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 23382
+App 23394 stdout: 
+[ 2017-07-12 16:31:30.2920 23380/0x10e637000 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+[ 2017-07-12 16:31:30.3182 23380/0x10e637000 Crypto.cpp:987 ]: Removing Passenger private key from keychain failed: write permissions error. Please remove the private key from the certificate labeled Phusion Passenger Open Source in your keychain.
+App 23407 stdout: 
+App 23394 stderr: 127.0.0.1 - - [12/Jul/2017:16:31:30 -0400] "HEAD / HTTP/1.1" 404 452 0.0040
+
+[ 2017-07-12 16:33:42.9559 23382/0x104ab8000 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:33:42.9560 23382/0x7fff745dd300 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2017-07-12 16:33:42.9561 23380/0x10e73d000 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-12 16:33:42.9561 23382/0x104ab8000 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-12 16:33:42.9561 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-12 16:33:42.9562 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 23407, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:33:42.9562 23382/0x104bbe000 Ser/Server.h:861 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9563 23382/0x104bbe000 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-12 16:33:42.9564 23380/0x10e73d000 Ser/Server.h:861 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9564 23380/0x10e73d000 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-12 16:33:42.9565 23380/0x10e843000 Ser/Server.h:861 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9565 23380/0x10e843000 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-07-12 16:33:42.9565 23380/0x10e949000 Ser/Server.h:861 ]: [ServerThr.3] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9565 23380/0x10e949000 Ser/Server.h:490 ]: [ServerThr.3] Shutdown finished
+[ 2017-07-12 16:33:42.9565 23380/0x10ea4f000 Ser/Server.h:861 ]: [ServerThr.4] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9566 23380/0x10ea4f000 Ser/Server.h:490 ]: [ServerThr.4] Shutdown finished
+[ 2017-07-12 16:33:42.9567 23380/0x10eb55000 Ser/Server.h:861 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-12 16:33:42.9567 23380/0x10eb55000 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-12 16:33:42.9568 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 23407, application /Users/suzannehunter/Desktop/devstudio24/public (development)
+[ 2017-07-12 16:33:42.9570 23382/0x7fff745dd300 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-12 16:33:43.2305 23380/0x7fff745dd300 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
