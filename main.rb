@@ -1,5 +1,5 @@
 require 'sinatra'
-# require 'bootstrap-sass'
+require 'bootstrap-sass'
 
 	get '/' do 
 		erb :index
