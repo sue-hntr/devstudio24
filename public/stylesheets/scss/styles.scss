@@ -1,0 +1,209 @@
+.clearfix {clear: both !important; }
+
+$blueColor: #0C3752;
+$redColor: #9C2426;
+
+//FONTS
+.ubuntufont {font-family: 'Ubuntu';font-size: 25px;}
+
+p.opensansfont, .opensansfont p {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+  font-style: italic;}
+  @media screen and (min-width: 300px) and (max-width: 570px){
+    p.opensansfont, .opensansfont p{
+      font-size: 13px;
+      // line-height: 19px;
+    }
+  }
+
+a.opensansfont, 
+.opensansfont a {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+  color: $blueColor;
+  text-align: left;
+  margin-left: 10px;
+  display: block;}
+  @media screen and (min-width: 300px) and (max-width: 570px){
+    a.opensansfont, .opensansfont a{
+      font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+      font-size: 14px;
+      line-height: 0px;
+      text-align: left;
+      margin-left: 15%;
+      display: block;
+    }
+  }
+
+a:hover.opensansfont, .opensansfont a:hover{
+  text-decoration: underline;
+}
+
+.abrilfatfont {
+  font-family: 'Abril Fatface', 'Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 40px;
+  line-height: -50px;
+  color: $redColor;}
+  @media screen and (min-width: 300px) and (max-width: 570px){
+      .abrilfatfont{
+        font-size: 33px;
+      }
+    }
+  
+.abrilfatfont-title {
+    font-family: 'Abril Fatface', 'Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+    font-size: 58px;
+    color: $blueColor;}
+    @media screen and (min-width: 300px) and (max-width: 570px){
+      .abrilfatfont-title{
+        font-size: 40px;
+      }
+    }
+
+.oldstandfont {
+  font-family: 'Old Standard TT','Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 38px;
+  line-height: 35px;}
+  @media screen and (min-width: 300px) and (max-width: 570px){
+    .oldstandfont{
+      font-size: 27px;
+      line-height: 20px;
+    }}
+
+.oldstandfont-title {
+  font-family: 'Old Standard TT','Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 58px;
+  line-height: 50px;}
+  @media screen and (min-width: 300px) and (max-width: 570px){
+      .oldstandfont-title {
+        font-size: 27px;
+      }}
+
+
+.pagecontainr{
+  width: 100%;
+  margin: 0px 10px 0px 10px;
+}
+
+
+  .containr-title{
+    width: 100%;
+    margin-left: 10px;
+    float: left;
+  }   
+
+.containr-title br{
+  display: all; }
+  @media screen and (min-width: 1024px) {
+    .containr-title br{
+    display: none;}}
+
+
+.containr-content{
+  width: 100%;
+  margin-left: 10px;
+  float: left;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .containr-content{
+    margin: 0 auto;
+   } 
+  }
+
+//COLUMNS FOR CONTENT
+//LEFT COLUMN
+.widthdeskleft{
+  width: 22%;
+  display: block;  }
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .widthdeskleft{
+      display: none !important;}}
+
+.containr-content img.widthdeskleft,
+.widthdeskleft img{
+    float: left;
+    width:100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+.containr-content img.widthdeskleft,
+.widthdeskleft img{
+      display: none;
+    }
+  }
+
+//COLUMNS FOR CONTENT
+//RIGHT COLUMN
+// DESKTOP
+.widthdeskright{
+  width: 75%;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 25px;
+  margin: auto;
+  float: right;}
+  // TABLET AND MOBILE
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .widthdeskright{
+      width: 100%;
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-left: 10px;
+      text-align: center;
+    }
+  } 
+
+//QUOTATION TREATMENT
+// TOP LEFT QUOTE MARK
+.leftmarginquote{
+  margin-left: -20px;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .leftmarginquote{
+    margin-left: 0px;
+  }}
+
+.hidequote{
+  display: inline;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .hidequote{
+      display: none;}}
+ 
+.quotemark{
+  display: none;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+  .quotemark{
+  font-family: 'Abril Fatface', 'Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 80px;
+  color: $blueColor;
+  text-align: center;
+  display: block;
+  line-height: 10px; }}
+
+//RIGHT COLUMN
+//NAME AND INFO LOCATION MOVES
+.nametopright{
+  display: block;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .nametopright{
+      display: none; }}
+
+.namebtmright{
+  display: none;}
+  @media screen and (min-width: 300px) and (max-width: 767px){
+    .namebtmright{
+      display: block; }}
+
+
+
+
+
+.widthdeskright-space{
+  line-height: 50px;
+  }
+
+
