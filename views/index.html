@@ -13,12 +13,12 @@
     <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
 
-    <link rel="stylesheet" type="text/css" 
-    href="/styles.css">
-
+    <!-- LINK TO STYLESHEET  -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/css/styles.css">
 </head>
+    <!-- NAVBAR START  -->
 <body>
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,13 +38,50 @@
       <li class="nav-item active">
         <a class="nav-link" href="samplewordpress.html">wordpress sample<span class="sr-only">(current)</span></a>
       </li>
-     
   </div>
 </nav>
 <hr>
-
 <!--********* INFORMATION SPACE OPEN  ********-->
-<%=yield%>
+<div id="info_space">
+<div class="pagecontainr">
+<div class="containr-title">
+<p> <span class="bluetext  abrilfatfont-title">Quoting Women</span>&nbsp;&nbsp;
+  <span class="oldstandfont-title"><br>on the Supreme Court</span>
+<br>
+<hr class="namebtmright"></hr>
+<br>
+</div> <!-- close container-title -->
+<div class="containr-content">
+      <div class="widthdeskleft">
+          <img src="/images/bluefill.jpg">
+      </div>
+      <div class="widthdeskright">
+    <!-- HIDDEN IN MOBILE -->    
+        <p class="oldstandfont nametopright">Ruth Bader Ginsburg</p>
+        <p class="opensansfont nametopright">Associate Justice, took her seat August&nbsp;10,&nbsp;1993.  </p>
+    <!-- END -->
+        <p class="abrilfatfont redtext">
+            <span class="quotemark">
+              &#8220; <!-- openquote -->
+            </span>
+            <span class="leftmarginquote hidequote">
+            &#8220;</span>Fight for the things that you care about, but do it in a way that will lead others to join you.<span class="hidequote">&#8221;
+        </p>
+        <span class="quotemark" style="line-height: 50px;">
+            &#8221; <!-- closequote -->
+          </span>
+    <!-- HIDDEN IN DESKTOP -->    
+        <p class="oldstandfont namebtmright">Ruth Bader Ginsburg</p>
+        <p class="opensansfont namebtmright">Associate Justice, took her seat August&nbsp;10,&nbsp;1993.  </p>
+    <!-- END -->    
+        <br>
+        <a class="opensansfont" href="#" >&#8226;&nbsp;Justice Ginsburg's court collars</a>&nbsp;&nbsp;<a class="opensansfont" href="#">&#8226;&nbsp;wikipedia</a>
+      </div> <!-- close widthdeskright -->
+</div>  <!-- close containr-content -->
+</div> <!-- close pagecontainr -->
+</div> <!--close info_space-->
+
+
 <!--********* INFORMATION SPACE CLOSED  ********-->
    <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
