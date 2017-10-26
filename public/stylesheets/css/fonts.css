@@ -1,0 +1,102 @@
+.ubuntufont {
+  font-family: 'Ubuntu';
+  font-size: 25px; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px; }
+
+.opensansfont p, p.opensansfont {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+  font-style: italic !important; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  p.opensansfont {
+    font-size: 13px;
+    text-align: center; } }
+.subtitle {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 5px; }
+
+@media screen and (max-width: 570px) and (min-width: 300px) {
+  .subtitle {
+    font-size: 12px; } }
+.opensansfont
+a {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+  color: #0C3752 !important;
+  text-align: left;
+  margin-left: 10px;
+  display: block; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  a {
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+    font-size: 14px !important;
+    text-align: left;
+    display: block; } }
+li {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C3752 !important;
+  text-align: left;
+  display: block; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  a {
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    display: block; } }
+.abrilfatfont {
+  font-family: 'Abril Fatface', 'Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 40px;
+  line-height: -50px;
+  color: #9C2426; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  .abrilfatfont {
+    font-size: 33px; } }
+.abrilfatfont-title {
+  font-family: 'Abril Fatface', 'Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 58px;
+  color: #0C3752; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  .abrilfatfont-title {
+    font-size: 40px;
+    line-height: 20px; } }
+.oldstandfont {
+  font-family: 'Old Standard TT','Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 38px;
+  line-height: 35px; }
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .oldstandfont {
+    font-size: 27px;
+    line-height: 20px; } }
+.oldstandfont-title {
+  font-family: 'Old Standard TT','Bodoni 72', 'Times New Roman', Times, 'Droid Serif', serif;
+  font-size: 58px;
+  line-height: 50px; }
+
+@media screen and (min-width: 300px) and (max-width: 570px) {
+  .oldstandfont-title {
+    font-size: 27px; } }
+
+/*# sourceMappingURL=fonts.css.map */
